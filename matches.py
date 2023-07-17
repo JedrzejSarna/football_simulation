@@ -30,3 +30,11 @@ class Match:
 
     def get_match_result(self):
         return f"{self.home_team.name} {self.home_goals} - {self.away_goals} {self.away_team.name}"
+
+    def comment_on_match(self):
+        if self.home_goals > self.away_goals:
+            return "A thrilling victory for the home team!"
+        elif self.home_goals < self.away_goals:
+            return "The away team steals the victory!"
+        else:
+            return "It's a draw. Both teams performed well!"

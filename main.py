@@ -29,6 +29,7 @@ if __name__ == "__main__": #read more why this is important
 
     # Display the match result and team statistics
     print(match.get_match_result())
+    print(match.comment_on_match())
     print("----")
     print("Team 1 Stats:")
     print(team1.get_team_stats())
@@ -40,4 +41,3 @@ if __name__ == "__main__": #read more why this is important
     print(player2.name, player2.get_stats())
     print(player3.name, player3.get_stats())
     print(player4.name, player4.get_stats())
-
