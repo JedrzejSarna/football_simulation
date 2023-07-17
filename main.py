@@ -2,7 +2,7 @@ from player import Player
 from team import Team
 from matches import Match
 
-if __name__ == "__main__":
+if __name__ == "__main__": #read more why this is important
     # Create player instances
     player1 = Player("Lionel Messi", "Forward", "Argentina")
     player2 = Player("Cristiano Ronaldo", "Forward", "Portugal")
@@ -40,3 +40,4 @@ if __name__ == "__main__":
     print(player2.name, player2.get_stats())
     print(player3.name, player3.get_stats())
     print(player4.name, player4.get_stats())
+
