@@ -38,3 +38,5 @@ class Match:
             return "The away team steals the victory!"
         else:
             return "It's a draw. Both teams performed well!"
+        
+print('lol')
